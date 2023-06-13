@@ -18,4 +18,4 @@ def test_yasha1urok(window_size,browser_open):
 
 def test_mytest_wrong(window_size,browser_open):
     browser.element('[name="q"]').should(be.blank).type('4374377543954745656905768568569-53635-96ssdsdsd').press_enter()
-    assert browser.element('[id="search"]').should(have.text('Поиск не выдал результатов'))
+    assert browser.element('.s6JM6d [data-ved]').should(have.text('2ahUKEwj1jpelzr__AhXbDhAIHQOdAmsQL3oECAcQAg'))
